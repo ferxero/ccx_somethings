@@ -3,12 +3,15 @@ It's to do any something in go with modules.
 
 # How use it
 
+```sh
 $ mkdir some_app && cd some_app
 $ go mod init x.com/fx/appx
 $ touch main.go
+```
 
-# In the file main.go
+# Create a file called main.go
 
+```sh
 package main
 
 import (
@@ -20,8 +23,9 @@ import (
 func main() {
 	fmt.Println("", count.Max(1, 2))
 }
+```
 
-# Run and import autmatically the library
+# Run and import automatically the library
 
 $ go run .
 
