@@ -1,7 +1,7 @@
-# ccx_somethings
+# ccx somethings
 It's to do any something in go with modules.
 
-# How use it
+## How use it
 
 ```sh
 $ mkdir some_app && cd some_app
@@ -9,9 +9,9 @@ $ go mod init x.com/fx/appx
 $ touch main.go
 ```
 
-# Create a file called main.go
+## Create a file called main.go
 
-```sh
+```go
 package main
 
 import (
@@ -25,7 +25,7 @@ func main() {
 }
 ```
 
-# Run and import automatically the library
+## Run and import automatically the library
 
 $ go run .
 
