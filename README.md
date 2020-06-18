@@ -1,4 +1,4 @@
-# ccx somethings
+# Library: ccx somethings
 It's to do any something in go with modules.
 
 ## How use it
@@ -41,5 +41,12 @@ func main() {
 
 ## Run and import automatically the library
 
+```zsh
 $ go run .
+```
 
+## Then you can run the test
+
+```zsh
+go test -v ./count
+```
